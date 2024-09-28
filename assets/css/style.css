@@ -1480,3 +1480,71 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+
+
+
+
+/* ------ new add ----------- */
+
+#vision {
+  background: #263F49; /* Updated background color */
+  padding: 60px 0; /* Add spacing */
+  color: white; /* Default text color */
+}
+
+.card {
+  background: white; /* Card color */
+  border: none; /* Remove borders */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 30px; /* Space between cards */
+  padding: 20px; /* Inner spacing */
+  transition: transform 0.3s; /* Hover effect */
+  color: #263F49; /* Text color for the card */
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.card i {
+  font-size: 24px; /* Icon size */
+  margin-right: 10px; /* Space between icon and title */
+  color: #263F49; /* Icon color matching the background */
+}
+
+[data-aos] {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+  transform: none;
+}
+
+
+
+.title-container {
+  background-color: #B6AA93; /* Background color for the title */
+  display: inline-block; /* Make the background fit the title */
+  padding: 5px 15px; /* Padding around the title */
+  border-radius: 5px; /* Slightly rounded corners */
+  margin-bottom: 15px; /* Space below the title */
+}
+
+.title {
+  font-size: 12px; /* Reduced font size */
+  margin: 0; /* Remove default margin */
+  color: #263F49; /* Title text color */
+}
